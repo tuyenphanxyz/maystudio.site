@@ -1,0 +1,1218 @@
+/* ==========================================================================
+   Theme Name: Traveloky - Travel Tour HTML Template
+   Author: Maytechub
+   Description: Version 1.1
+   ========================================================================== */
+
+/* ==========================================================================
+   1. Global Reset & Default Styles
+   ========================================================================== */
+html * {
+  outline: 0 !important;
+}
+
+html,
+body {
+  min-height: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+a:focus,
+input:focus,
+textarea:focus,
+button:focus {
+  text-decoration: none;
+  outline: none;
+  box-shadow: none;
+}
+
+.custom-control-input:focus,
+.custom-select:focus,
+.custom-control-label::before {
+  box-shadow: none !important;
+}
+
+/* ==========================================================================
+     2. Background Images
+     ========================================================================== */
+.bg-cta {
+  background-image: url(../images/bg-cta.jpg);
+  background-repeat: repeat;
+  background-attachment: fixed;
+}
+
+.bg-cta-flights {
+  background-image: url(../images/cta-flights.jpg);
+  background-repeat: repeat;
+  background-attachment: fixed;
+}
+
+.bg-cta-tours {
+  background-image: url(../images/cta-tours.jpg);
+  background-repeat: repeat;
+  background-attachment: fixed;
+}
+
+/* ==========================================================================
+   Padding Utilities (Only Padding)
+   ========================================================================== */
+
+/* Extra Small Devices (xs) */
+.py-48 {
+  padding-top: 48px !important;
+  padding-bottom: 48px !important;
+}
+
+.py-64 {
+  padding-top: 64px !important;
+  padding-bottom: 64px !important;
+}
+
+.py-72 {
+  padding-top: 72px !important;
+  padding-bottom: 72px !important;
+}
+
+.py-80 {
+  padding-top: 80px !important;
+  padding-bottom: 80px !important;
+}
+
+.py-100 {
+  padding-top: 100px !important;
+  padding-bottom: 100px !important;
+}
+
+.pt-48 {
+  padding-top: 48px !important;
+}
+
+.pt-64 {
+  padding-top: 64px !important;
+}
+
+.pt-72 {
+  padding-top: 72px !important;
+}
+
+.pt-80 {
+  padding-top: 80px !important;
+}
+
+.pt-100 {
+  padding-top: 100px !important;
+}
+
+.pb-48 {
+  padding-bottom: 48px !important;
+}
+
+.pb-64 {
+  padding-bottom: 64px !important;
+}
+
+.pb-72 {
+  padding-bottom: 72px !important;
+}
+
+.pb-80 {
+  padding-bottom: 80px !important;
+}
+
+.pb-100 {
+  padding-bottom: 100px !important;
+}
+
+/* Small Devices (≥576px) */
+@media (min-width: 576px) {
+  .py-sm-48 {
+    padding-top: 48px !important;
+    padding-bottom: 48px !important;
+  }
+
+  .py-sm-64 {
+    padding-top: 64px !important;
+    padding-bottom: 64px !important;
+  }
+
+  .py-sm-72 {
+    padding-top: 72px !important;
+    padding-bottom: 72px !important;
+  }
+
+  .py-sm-80 {
+    padding-top: 80px !important;
+    padding-bottom: 80px !important;
+  }
+
+  .py-sm-100 {
+    padding-top: 100px !important;
+    padding-bottom: 100px !important;
+  }
+
+  .pt-sm-48 {
+    padding-top: 48px !important;
+  }
+
+  .pt-sm-64 {
+    padding-top: 64px !important;
+  }
+
+  .pt-sm-72 {
+    padding-top: 72px !important;
+  }
+
+  .pt-sm-80 {
+    padding-top: 80px !important;
+  }
+
+  .pt-sm-100 {
+    padding-top: 100px !important;
+  }
+
+  .pb-sm-48 {
+    padding-bottom: 48px !important;
+  }
+
+  .pb-sm-64 {
+    padding-bottom: 64px !important;
+  }
+
+  .pb-sm-72 {
+    padding-bottom: 72px !important;
+  }
+
+  .pb-sm-80 {
+    padding-bottom: 80px !important;
+  }
+
+  .pb-sm-100 {
+    padding-bottom: 100px !important;
+  }
+}
+
+/* Medium Devices (≥768px) */
+@media (min-width: 768px) {
+  .py-md-48 {
+    padding-top: 48px !important;
+    padding-bottom: 48px !important;
+  }
+
+  .py-md-64 {
+    padding-top: 64px !important;
+    padding-bottom: 64px !important;
+  }
+
+  .py-md-72 {
+    padding-top: 72px !important;
+    padding-bottom: 72px !important;
+  }
+
+  .py-md-80 {
+    padding-top: 80px !important;
+    padding-bottom: 80px !important;
+  }
+
+  .py-md-100 {
+    padding-top: 100px !important;
+    padding-bottom: 100px !important;
+  }
+
+  .pt-md-48 {
+    padding-top: 48px !important;
+  }
+
+  .pt-md-64 {
+    padding-top: 64px !important;
+  }
+
+  .pt-md-72 {
+    padding-top: 72px !important;
+  }
+
+  .pt-md-80 {
+    padding-top: 80px !important;
+  }
+
+  .pt-md-100 {
+    padding-top: 100px !important;
+  }
+
+  .pb-md-48 {
+    padding-bottom: 48px !important;
+  }
+
+  .pb-md-64 {
+    padding-bottom: 64px !important;
+  }
+
+  .pb-md-72 {
+    padding-bottom: 72px !important;
+  }
+
+  .pb-md-80 {
+    padding-bottom: 80px !important;
+  }
+
+  .pb-md-100 {
+    padding-bottom: 100px !important;
+  }
+}
+
+/* Large Devices (≥992px) */
+@media (min-width: 992px) {
+  .py-lg-48 {
+    padding-top: 48px !important;
+    padding-bottom: 48px !important;
+  }
+
+  .py-lg-64 {
+    padding-top: 64px !important;
+    padding-bottom: 64px !important;
+  }
+
+  .py-lg-72 {
+    padding-top: 72px !important;
+    padding-bottom: 72px !important;
+  }
+
+  .py-lg-80 {
+    padding-top: 80px !important;
+    padding-bottom: 80px !important;
+  }
+
+  .py-lg-100 {
+    padding-top: 100px !important;
+    padding-bottom: 100px !important;
+  }
+
+  .pt-lg-48 {
+    padding-top: 48px !important;
+  }
+
+  .pt-lg-64 {
+    padding-top: 64px !important;
+  }
+
+  .pt-lg-72 {
+    padding-top: 72px !important;
+  }
+
+  .pt-lg-80 {
+    padding-top: 80px !important;
+  }
+
+  .pt-lg-100 {
+    padding-top: 100px !important;
+  }
+
+  .pb-lg-48 {
+    padding-bottom: 48px !important;
+  }
+
+  .pb-lg-64 {
+    padding-bottom: 64px !important;
+  }
+
+  .pb-lg-72 {
+    padding-bottom: 72px !important;
+  }
+
+  .pb-lg-80 {
+    padding-bottom: 80px !important;
+  }
+
+  .pb-lg-100 {
+    padding-bottom: 100px !important;
+  }
+}
+
+/* Extra Large Devices (≥1200px) */
+@media (min-width: 1200px) {
+  .py-xl-48 {
+    padding-top: 48px !important;
+    padding-bottom: 48px !important;
+  }
+
+  .py-xl-64 {
+    padding-top: 64px !important;
+    padding-bottom: 64px !important;
+  }
+
+  .py-xl-72 {
+    padding-top: 72px !important;
+    padding-bottom: 72px !important;
+  }
+
+  .py-xl-80 {
+    padding-top: 80px !important;
+    padding-bottom: 80px !important;
+  }
+
+  .py-xl-100 {
+    padding-top: 100px !important;
+    padding-bottom: 100px !important;
+  }
+
+  .pt-xl-48 {
+    padding-top: 48px !important;
+  }
+
+  .pt-xl-64 {
+    padding-top: 64px !important;
+  }
+
+  .pt-xl-72 {
+    padding-top: 72px !important;
+  }
+
+  .pt-xl-80 {
+    padding-top: 80px !important;
+  }
+
+  .pt-xl-100 {
+    padding-top: 100px !important;
+  }
+
+  .pb-xl-48 {
+    padding-bottom: 48px !important;
+  }
+
+  .pb-xl-64 {
+    padding-bottom: 64px !important;
+  }
+
+  .pb-xl-72 {
+    padding-bottom: 72px !important;
+  }
+
+  .pb-xl-80 {
+    padding-bottom: 80px !important;
+  }
+
+  .pb-xl-100 {
+    padding-bottom: 100px !important;
+  }
+}
+
+/* Extra Extra Large Devices (≥1400px) */
+@media (min-width: 1400px) {
+  .py-xxl-48 {
+    padding-top: 48px !important;
+    padding-bottom: 48px !important;
+  }
+
+  .py-xxl-64 {
+    padding-top: 64px !important;
+    padding-bottom: 64px !important;
+  }
+
+  .py-xxl-72 {
+    padding-top: 72px !important;
+    padding-bottom: 72px !important;
+  }
+
+  .py-xxl-80 {
+    padding-top: 80px !important;
+    padding-bottom: 80px !important;
+  }
+
+  .py-xxl-100 {
+    padding-top: 100px !important;
+    padding-bottom: 100px !important;
+  }
+
+  .pt-xxl-48 {
+    padding-top: 48px !important;
+  }
+
+  .pt-xxl-64 {
+    padding-top: 64px !important;
+  }
+
+  .pt-xxl-72 {
+    padding-top: 72px !important;
+  }
+
+  .pt-xxl-80 {
+    padding-top: 80px !important;
+  }
+
+  .pt-xxl-100 {
+    padding-top: 100px !important;
+  }
+
+  .pb-xxl-48 {
+    padding-bottom: 48px !important;
+  }
+
+  .pb-xxl-64 {
+    padding-bottom: 64px !important;
+  }
+
+  .pb-xxl-72 {
+    padding-bottom: 72px !important;
+  }
+
+  .pb-xxl-80 {
+    padding-bottom: 80px !important;
+  }
+
+  .pb-xxl-100 {
+    padding-bottom: 100px !important;
+  }
+}
+
+
+
+/* Similar responsive rules apply for medium (768px), large (992px), extra-large (1200px), and XXL (1400px) breakpoints */
+
+/* ==========================================================================
+     4. Typography
+     ========================================================================== */
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+h5 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+h6 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 16px;
+  font-weight: 300;
+  color: #747579;
+}
+
+.fs-sm {
+  font-size: 14px;
+}
+
+.fs-xs {
+  font-size: 12px;
+}
+
+.fs-xxxs {
+  font-size: 5px;
+}
+
+/* Responsive adjustment for h4 on small devices */
+@media (max-width: 667px) {
+  h4 {
+    font-size: 20px;
+    font-weight: bold;
+  }
+}
+
+/* ==========================================================================
+     5. Title Page
+     ========================================================================== */
+.title-page {
+  position: relative;
+}
+
+.title-page h1 {
+  color: #f0f0f0;
+  font-size: 100px;
+  letter-spacing: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: 'Raleway', sans-serif;
+  position: relative;
+}
+
+.title-page h3 {
+  font-size: 30px;
+  text-transform: uppercase;
+  position: absolute;
+  top: 45px;
+  width: 100%;
+  left: 0;
+  right: 0;
+  color: #353535;
+  font-weight: 900;
+}
+
+hr.line-title {
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 70px;
+  bottom: 10px;
+  border-top: 4px solid rgb(49, 111, 254);
+  margin: auto;
+}
+
+/* Responsive Title Page for Mobile Devices */
+@media (max-width: 667px) {
+  .title-page h1 {
+    font-size: 48px;
+    letter-spacing: 8px;
+  }
+
+  .title-page h3 {
+    font-size: 20px !important;
+    top: 14px !important;
+    color: #353535 !important;
+    font-weight: 900 !important;
+  }
+
+  hr.line-title {
+    width: 70px !important;
+    bottom: 0 !important;
+    border-top: 4px solid rgb(49, 111, 254) !important;
+  }
+}
+
+/* ==========================================================================
+     6. Back to Top Button
+     ========================================================================== */
+.back-top a {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  border: 2px solid #316ffe;
+  background-color: #316ffe;
+  width: 40px;
+  height: 40px;
+  line-height: 36px;
+  text-align: center;
+  font-size: 24px;
+  z-index: 100;
+  color: #fff;
+  top: 0;
+  opacity: 0;
+  transition: all 0.9s linear;
+  border-radius: 10px;
+}
+
+.back-top a::after {
+  content: "";
+  position: absolute;
+  left: -2px;
+  top: -2px;
+  width: 40px;
+  height: 40px;
+  background: #2c62de;
+  border-radius: 10px;
+  animation: ripple 1.6s ease-out infinite;
+  z-index: -1;
+  opacity: 1;
+}
+
+@keyframes ripple {
+  0% {
+    transform: scale(0);
+    opacity: 1;
+  }
+
+  100% {
+    transform: scale(1.5);
+    opacity: 0;
+  }
+}
+
+.back-top.active a {
+  opacity: 1;
+  top: 90%;
+}
+
+.back-top a:hover {
+  background-color: #33ca53;
+  border-color: #33ca53;
+}
+
+/* ==========================================================================
+     7. Button Styles
+     ========================================================================== */
+.btn {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  font-weight: 500;
+  text-transform: capitalize;
+  transition: all 0.8s;
+}
+
+.btn-lg {
+  padding: 0.8rem 1.5rem;
+}
+
+.btn-sm {
+  padding: 0.4rem 0.8rem;
+  font-size: 0.8125rem;
+}
+
+.btn-primary {
+  background-color: #0070f9;
+  border-color: #0070f9;
+}
+
+.btn-primary:hover {
+  box-shadow: 0 4px 12px #0070f994;
+}
+
+/* ==========================================================================
+     8. Form Elements
+     ========================================================================== */
+.form-control {
+  padding: 12px 10px;
+}
+
+.flag-icon {
+  margin-right: 8px;
+}
+
+.flag-img {
+  width: 24px;
+  height: 18px;
+  margin-right: 4px;
+  object-fit: cover;
+}
+
+.dropdown-menu {
+  border: 0;
+  --bs-dropdown-min-width: auto;
+  cursor: pointer;
+}
+
+.dropdown-toggle {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.dropdown-toggle::after {
+  display: none;
+}
+
+/* Input Icon Styles */
+.input-icon {
+  position: relative;
+}
+
+.input-icon .form-control {
+  padding-left: 50px;
+}
+
+.input-icon .form-control-feedback {
+  position: absolute;
+  z-index: 2;
+  margin: auto;
+  pointer-events: none;
+  color: #aaa;
+}
+
+.input-icon span {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  color: #0943e4;
+}
+
+/* ==========================================================================
+     9. Header Styles
+     ========================================================================== */
+/* Dark Header */
+.header-dark .header-top .dropdown {
+  color: #ffffff;
+}
+
+.header-dark .fa-search {
+  color: #ffffff;
+}
+
+.logo-white,
+.logo-dark {
+  transition: opacity 0.3s ease;
+}
+
+.logo-dark {
+  display: none;
+}
+
+header.header-dark.fixed-top.scrolled .dropdown {
+  color: #000;
+}
+
+header.header-dark.fixed-top.scrolled a.btn.btn-link {
+  color: #000;
+}
+
+.header-dark .header-top a.btn.btn-link {
+  color: #fff;
+}
+
+header.header-dark.fixed-top.scrolled .navbar-nav .nav-link {
+  color: #000 !important;
+}
+
+header.header-dark.fixed-top.scrolled .navbar-nav .nav-link.active {
+  color: #0943e4 !important;
+}
+
+.header-dark .navbar-nav .nav-link {
+  color: #000000c7 !important;
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  padding: 8px -px;
+  font-size: 15px;
+  text-transform: uppercase;
+  line-height: normal;
+}
+
+.header-dark .navbar-nav .nav-link.active {
+  color: #ffffff;
+}
+
+.header-dark .navbar-nav .nav-link:hover {
+  color: #ffffff !important;
+}
+
+.offcanvas .navbar-nav .nav-link.active,
+.offcanvas .navbar-nav .nav-link:hover {
+  color: #0943e4 !important;
+}
+
+.header-dark {
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.header-dark.scrolled {
+  background-color: #fff;
+  color: #000;
+  box-shadow: 0 .375rem 1.5rem 0 rgba(140, 152, 164, 0.125);
+  transition: all 0.5s;
+}
+
+.header-dark.scrolled .fa-search {
+  color: #0943e4 !important;
+}
+
+
+
+.header-dark.scrolled a {
+  color: #000;
+}
+
+
+.dropdown-item.active,
+.dropdown-item:active {
+  background: transparent;
+}
+
+.dropdown-item.active,
+.dropdown-item:active {
+  color: #0943e4 !important;
+}
+
+/* Dropdown Menu for Dark Header (Desktop Only) */
+@media (min-width: 992px) {
+
+  .header-dark .navbar-nav .nav-link {
+    color: #ffffffc7 !important;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    padding: 0 14px;
+    font-size: 15px;
+    text-transform: uppercase;
+    line-height: normal;
+  }
+
+  .header-dark .navbar-nav .nav-link.active {
+    color: #ffffff !important;
+    ;
+  }
+
+
+  .header-dark .header .dropdown .dropdown-menu {
+    display: block;
+    opacity: 0;
+    transform: translateY(10px);
+    visibility: hidden;
+    padding: 16px 20px;
+    box-shadow: 0 .375rem .75rem rgba(140, 152, 164, 0.075);
+  }
+
+  .header-dark .header .dropdown:hover .dropdown-menu {
+    visibility: visible;
+    animation: dropdown-show 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) forwards;
+  }
+
+  .header-dark .header .dropdown:hover .dropdown-menu .dropdown-item {
+    font-weight: 500;
+  }
+
+  .header-dark .header .dropdown:hover .dropdown-menu .dropdown-item:hover {
+    background: #fff;
+    color: #0d6efd;
+  }
+}
+
+
+
+/* Dropdown Animation Keyframes (Shared) */
+@keyframes dropdown-show {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Navbar Toggler */
+.navbar-toggler {
+  position: relative;
+  width: 1.875rem;
+  height: 2.25rem;
+}
+
+.navbar-toggler:focus {
+  outline: 0;
+  box-shadow: none;
+}
+
+.navbar-toggler-icon,
+.navbar-toggler-icon::before,
+.navbar-toggler-icon::after {
+  position: absolute;
+  width: 1.375rem;
+  height: 0.125rem;
+  background-color: var(--ar-navbar-toggler-color, #000);
+  transition: transform 0.075s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+
+.navbar-toggler-icon {
+  top: 50%;
+  margin-top: -0.0625rem;
+}
+
+.navbar-toggler-icon::before {
+  content: "";
+  display: block;
+  width: 0.9625rem;
+  top: -0.4375rem;
+  transition: top 0.075s 0.12s ease, opacity 0.075s ease, width 0.15s ease-in-out;
+}
+
+.navbar-toggler-icon::after {
+  content: "";
+  display: block;
+  width: 0.9625rem;
+  right: 0;
+  bottom: -0.4375rem;
+  transition: bottom 0.075s 0.12s ease, transform 0.075s cubic-bezier(0.55, 0.055, 0.675, 0.19), width 0.15s ease-in-out;
+}
+
+/* ==========================================================================
+     10. Tabs
+     ========================================================================== */
+.tabs-dark .nav-link {
+  color: #e4e4e4d6;
+  border-bottom: 2px solid transparent;
+  border-radius: 0;
+}
+
+.tabs-dark .nav-link.active {
+  color: #ffffff;
+  border-bottom: 2px solid #ffffff;
+}
+
+.tabs-dark .nav-link:hover {
+  color: #ffffff;
+}
+
+/* ==========================================================================
+     11. Hero Section & Animations
+     ========================================================================== */
+/* Hero Backgrounds */
+.hero,
+.hero-hotels,
+.hero-flights,
+.hero-tours,
+.hero-404 {
+  height: 100vh;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-position: center;
+  position: relative;
+}
+
+.hero {
+  background-image: url(../images/hero-3.jpg);
+}
+
+.hero-hotels {
+  background-image: url(../images/hero-hotels.jpg);
+}
+
+.hero-flights {
+  background-image: url(../images/hero-flights.jpg);
+}
+
+.hero-tours {
+  background-image: url(../images/hero-tours.jpg);
+}
+
+.hero-404 {
+  background-image: url(../images/hero-404.jpg);
+}
+
+/* Responsive Hero for Mobile Devices */
+@media (max-width: 667px) {
+
+  .hero-flights,
+  .hero-tours {
+    min-height: 100%;
+    height: 100%;
+  }
+}
+
+/* Cloud Animation */
+.animation-cloud {
+  height: 300px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.cloud-1 {
+  background-image: url(../images/cloud-1.png);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 300%;
+  height: 100%;
+  background-repeat: repeat-x;
+  animation: cloud_left_to_right 150s linear infinite;
+}
+
+.cloud-2 {
+  background-image: url(../images/cloud-1.png);
+  position: absolute;
+  top: 200px;
+  left: 0;
+  width: 300%;
+  height: 100%;
+  background-repeat: repeat-x;
+  animation: cloud_right_to_left 250s linear infinite;
+}
+
+/* Cloud Animation Keyframes */
+@keyframes cloud_left_to_right {
+  0% {
+    left: -200%;
+  }
+
+  100% {
+    left: 0;
+  }
+}
+
+@keyframes cloud_right_to_left {
+  0% {
+    left: 0;
+  }
+
+  100% {
+    left: -200%;
+  }
+}
+
+/* Wave Animation */
+.bg-wave-top {
+  height: 150px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  overflow: hidden;
+  z-index: 8;
+}
+
+.bg-wave-top .wave {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background-size: 1000px 100px;
+}
+
+.bg-wave-top .wave.wave1 {
+  z-index: 10;
+  opacity: 1;
+  bottom: 0;
+  animation: waveAnimation 30s linear infinite;
+}
+
+.bg-wave-top .wave.wave2 {
+  z-index: 8;
+  opacity: 0.5;
+  bottom: 10px;
+  animation: waveAnimation2 15s linear infinite;
+}
+
+.bg-wave-top .wave.wave3 {
+  z-index: 9;
+  opacity: 0.2;
+  bottom: 15px;
+  animation: waveAnimation 30s linear infinite;
+}
+
+.bg-wave-top .wave.wave4 {
+  z-index: 7;
+  opacity: 0.7;
+  bottom: 20px;
+  animation: waveAnimation2 5s linear infinite;
+}
+
+@keyframes waveAnimation {
+  0% {
+    background-position-x: 0;
+  }
+
+  100% {
+    background-position-x: 1000px;
+  }
+}
+
+@keyframes waveAnimation2 {
+  0% {
+    background-position-x: 1000px;
+  }
+
+  100% {
+    background-position-x: 0;
+  }
+}
+
+/* ==========================================================================
+     12. Card Styles
+     ========================================================================== */
+.card.card-img-scale {
+  cursor: pointer;
+}
+
+.card.card-img-scale img {
+  transition: all 0.5s ease;
+  transform: scale(1.001);
+}
+
+.card.card-img-scale:hover img {
+  transform: scale(1.03);
+}
+
+.card.card-img-scale .card-img-scale-wrapper {
+  transform: translateZ(0);
+  position: relative;
+  overflow: hidden;
+}
+
+.glass-effect {
+  background: #00227e24;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+}
+
+/* ==========================================================================
+     13. Swiper Styles
+     ========================================================================== */
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-pagination {
+  position: relative !important;
+  top: 0 !important;
+}
+
+/* ==========================================================================
+     14. Breadcrumb
+     ========================================================================== */
+
+.hero-breadcrumb {
+  height: 400px;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-position: center;
+  position: relative;
+}
+.hero-breadcrumb-2 {
+  height: 600px;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-position: center;
+  position: relative;
+}
+
+
+/* ==========================================================================
+     15. Accordion
+     ========================================================================== */
+
+.accordion {
+  border: 2px solid #00000000;
+  border-radius: 6px;
+}
+
+.accordion-item {
+  border: 2px solid #00000000;
+  border-radius: 6px;
+}
+
+.accordion-button {
+  font-size: 18px;
+  font-weight: 500;
+}
